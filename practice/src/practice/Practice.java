@@ -23,7 +23,6 @@ public class Practice {
         a = S.nextInt();
         System.out.print("input b : ");
         b = S.nextInt();
-        System.out.println("result : "+test(a,b));
     }
     
     public static int test(int a,int b){
