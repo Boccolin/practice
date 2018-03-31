@@ -5,6 +5,8 @@
  */
 package practice;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Boccoli'N
@@ -15,7 +17,13 @@ public class Practice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(test(5,3));
+        int a,b;
+        Scanner S = new Scanner(System.in);
+        System.out.print("input a : ");
+        a = S.nextInt();
+        System.out.print("input b : ");
+        b = S.nextInt();
+        System.out.println("result : "+test(a,b));
     }
     
     public static int test(int a,int b){
