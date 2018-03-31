@@ -25,8 +25,8 @@ public class Practice {
         b = S.nextInt();
     }
     
-    public static int test(int a,int b){
-        return 0;
+    public static int test(int num1,int num2){
+        return num1 + num2;
     }
     
 }
